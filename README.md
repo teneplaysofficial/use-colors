@@ -2,6 +2,7 @@
 
 > ANSI terminal styling library
 
+[![CI](https://github.com/teneplaysofficial/use-colors/actions/workflows/ci.yml/badge.svg)](https://github.com/teneplaysofficial/use-colors/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/use-colors.svg?logo=npm&color=brightgreen)](https://www.npmjs.com/package/use-colors)
 [![Downloads](https://img.shields.io/npm/dt/use-colors?logo=npm)](https://www.npmjs.com/package/use-colors)
 [![codecov](https://codecov.io/gh/teneplaysofficial/use-colors/graph/badge.svg?token=aQhBVyYpUU)](https://codecov.io/gh/teneplaysofficial/use-colors)
