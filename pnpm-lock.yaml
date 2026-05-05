@@ -8,8 +8,8 @@ importers:
   .:
     dependencies:
       js-utils-kit:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^5.0.0
+        version: 5.0.0
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.4.6
@@ -528,10 +528,10 @@ packages:
       }
     engines: { node: '>=22' }
 
-  '@js-utils-kit/core@4.0.0':
+  '@js-utils-kit/core@5.0.0':
     resolution:
       {
-        integrity: sha512-epJqVTgF8XJlNX7mCrIT0rVqCMYJOQTfZ+Y57RW6urApl2ZSBbqAYpynTbTjOiD/MztzE+g6lyyg4txvGdb+tg==,
+        integrity: sha512-+nk51kcoc9iqwgYo5kLR9bO/WebVqNISbq1zlqM73+P39+kLi00pxp2z8Fh2BLjschE6tXWhp0z2aqk0L94tqw==,
       }
     engines: { node: '>=22' }
 
@@ -542,10 +542,10 @@ packages:
       }
     engines: { node: '>=22' }
 
-  '@js-utils-kit/env@3.0.0':
+  '@js-utils-kit/env@3.1.0':
     resolution:
       {
-        integrity: sha512-hHWsQNhNv6v/QTj3HuBUyH9InIcdWpC2sboxudJ/BR+HHcpSGdcs33/sbmV1KaVBl0hjPF4ZZZa1MDFp3XvapA==,
+        integrity: sha512-KSc2b5VH5TAIAIWaZRgYEgIQdX7Cy3F4n2ctozocU1KM88IJpm9E0tuQwegmSvoRYRMgaYtNCF2KozSJ0nH2Bw==,
       }
     engines: { node: '>=22' }
 
@@ -556,10 +556,10 @@ packages:
       }
     engines: { node: '>=22' }
 
-  '@js-utils-kit/fs@1.7.1':
+  '@js-utils-kit/fs@2.0.0':
     resolution:
       {
-        integrity: sha512-h6USb5E576M5q27t3CbVw9TKyW5Hf8TTNqQeCpGrVSwTeVlbm2tlL4c4Jq5vhRFfQ+468ztUQy0XwaLT8lU8/A==,
+        integrity: sha512-MQSLKkCxFfYgfX7oA7hiKHvp34f+XhSNFoDBXY3MY5lNeh+PWTzQfs9kZVQzjad1o8OUP+29ZNQOsUY4tI1lKQ==,
       }
     engines: { node: '>=22' }
 
@@ -584,10 +584,10 @@ packages:
       }
     engines: { node: '>=22' }
 
-  '@js-utils-kit/object@1.3.0':
+  '@js-utils-kit/object@2.0.0':
     resolution:
       {
-        integrity: sha512-YNyp1jPjSnvk8zT2pcHCk5DCL8JlXKEO9QHyiANjMwzF6JWYJ7Kcs4wJIyYfslL/jmnuVRwlV/9F9N+v7pKnoQ==,
+        integrity: sha512-O6InM98d2t5Z0LoYl34qHk3JQ9R6yr5K0PeLHWOsxFUaLRx8reXGCf3v7s0l12ShpC0kP97meFJD1Y2hyeevwA==,
       }
     engines: { node: '>=22' }
 
@@ -598,10 +598,17 @@ packages:
       }
     engines: { node: '>=22' }
 
-  '@js-utils-kit/pm@0.3.1':
+  '@js-utils-kit/pm@0.3.2':
     resolution:
       {
-        integrity: sha512-Ep+8+Ddyki+cALhCJMQI2t81LGoi0Ic0UkqqRj/nIufc4UqLUJWBcUzdfhQAWIvXWgjj1+xzRxXqjzua1e5ZBg==,
+        integrity: sha512-0sxCIz9VLVlIVT6RZ8MO/Y9NZjcj/fxqPZgCpZH4//8fn8b4GkEJcfMQAPcUTr46JLkhyX097o/7zFhDNI6usg==,
+      }
+    engines: { node: '>=22' }
+
+  '@js-utils-kit/regex@0.1.0':
+    resolution:
+      {
+        integrity: sha512-KMhNVcLYvUyUL4J1agNFqFrJOI4/bqIZQTwboWVIwXZjjbOiZRo/suYMNg0GRzEoibx81B9pUmpjNemblCPAhw==,
       }
     engines: { node: '>=22' }
 
@@ -651,6 +658,13 @@ packages:
     resolution:
       {
         integrity: sha512-k2Y/H9ZKbFv/YjXZIyx7Rnz6Ws7ZoCU6syOoDZ0srW8HM7nVrAtZskgsQFC3Zugd5M7cVXrjjquib7WmpED/wQ==,
+      }
+    engines: { node: '>=22' }
+
+  '@js-utils-kit/valid@3.0.0':
+    resolution:
+      {
+        integrity: sha512-uBPozMVSeRcmp/Oo3yxHTxOmybumKRQJ13Hr70UGmvPQsTqjW/yKZe8fldOGhV7Oq6VIEnCGhK0CBaV30mCu2A==,
       }
     engines: { node: '>=22' }
 
@@ -1797,10 +1811,10 @@ packages:
         integrity: sha512-q9i01vhr/tpTIZVRdD1E028ObFEDQegDv2iP9kiph2RwfT0aDJ74Y2JFmOfwW1vW0S04DbMXmzST4wE5QH6ACA==,
       }
 
-  js-utils-kit@4.0.0:
+  js-utils-kit@5.0.0:
     resolution:
       {
-        integrity: sha512-mRQCc5dj9K3xr/NVENY5pT13XOcA5411wPWzgJT7eRoT/KiKACqyiYWkmlEsgz9ILjgUf6ZaoVVbWxT1H4i5cw==,
+        integrity: sha512-YjCn2+YjJU20WM4gXnHAYhRk/O9jru8b/5G/GDC/K8dk2JCHNwIpEZW25u4VaLIbHf3ChfjC1nmiF/CkgQC+XQ==,
       }
 
   jsesc@3.1.0:
@@ -2783,20 +2797,21 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  '@js-utils-kit/core@4.0.0':
+  '@js-utils-kit/core@5.0.0':
     dependencies:
       '@js-utils-kit/array': 0.7.0
       '@js-utils-kit/charset': 1.0.0
       '@js-utils-kit/constants': 0.5.0
-      '@js-utils-kit/env': 3.0.0
-      '@js-utils-kit/fs': 1.7.1
+      '@js-utils-kit/env': 3.1.0
+      '@js-utils-kit/fs': 2.0.0
       '@js-utils-kit/number': 1.6.0
-      '@js-utils-kit/object': 1.3.0
-      '@js-utils-kit/pm': 0.3.1
+      '@js-utils-kit/object': 2.0.0
+      '@js-utils-kit/pm': 0.3.2
+      '@js-utils-kit/regex': 0.1.0
       '@js-utils-kit/string': 1.6.1
       '@js-utils-kit/system': 1.0.1
       '@js-utils-kit/types': 1.6.0
-      '@js-utils-kit/valid': 2.0.0
+      '@js-utils-kit/valid': 3.0.0
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -2807,7 +2822,7 @@ snapshots:
       '@js-utils-kit/system': 1.0.0
       '@js-utils-kit/types': 1.5.0
 
-  '@js-utils-kit/env@3.0.0':
+  '@js-utils-kit/env@3.1.0':
     dependencies:
       '@js-utils-kit/system': 1.0.1
       '@js-utils-kit/types': 1.6.0
@@ -2821,7 +2836,7 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  '@js-utils-kit/fs@1.7.1':
+  '@js-utils-kit/fs@2.0.0':
     dependencies:
       '@js-utils-kit/types': 1.6.0
       archiver: 7.0.1
@@ -2843,10 +2858,10 @@ snapshots:
       '@js-utils-kit/types': 1.5.0
       '@js-utils-kit/valid': 2.0.0
 
-  '@js-utils-kit/object@1.3.0':
+  '@js-utils-kit/object@2.0.0':
     dependencies:
       '@js-utils-kit/types': 1.6.0
-      '@js-utils-kit/valid': 2.0.0
+      '@js-utils-kit/valid': 3.0.0
 
   '@js-utils-kit/pm@0.2.0':
     dependencies:
@@ -2857,14 +2872,16 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  '@js-utils-kit/pm@0.3.1':
+  '@js-utils-kit/pm@0.3.2':
     dependencies:
-      '@js-utils-kit/fs': 1.7.1
+      '@js-utils-kit/fs': 2.0.0
       '@js-utils-kit/types': 1.6.0
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
       - react-native-b4a
+
+  '@js-utils-kit/regex@0.1.0': {}
 
   '@js-utils-kit/string@1.5.0':
     dependencies:
@@ -2883,6 +2900,10 @@ snapshots:
   '@js-utils-kit/types@1.6.0': {}
 
   '@js-utils-kit/valid@2.0.0': {}
+
+  '@js-utils-kit/valid@3.0.0':
+    dependencies:
+      '@js-utils-kit/regex': 0.1.0
 
   '@napi-rs/wasm-runtime@1.1.1':
     dependencies:
@@ -3452,9 +3473,9 @@ snapshots:
       - bare-buffer
       - react-native-b4a
 
-  js-utils-kit@4.0.0:
+  js-utils-kit@5.0.0:
     dependencies:
-      '@js-utils-kit/core': 4.0.0
+      '@js-utils-kit/core': 5.0.0
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
